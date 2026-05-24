@@ -30,12 +30,31 @@ Planned navigation items:
 
 The hero section should introduce the website quickly.
 
-Planned content:
+Final hero text:
 
-- Name
-- Short developer title
-- Short introduction paragraph
-- Links to Projects, Email, GitHub, LinkedIn, and CV
+```txt
+Hey, I'm Enes!
+
+I'm a Computer Programming student and software developer.
+
+This is my personal website for sharing my projects, notes, and everything I learn while improving my skills in software development, data analysis, artificial intelligence, and hardware-based systems.
+```
+
+Primary hero links:
+
+- Notes
+- Projects
+- About Me
+
+The **About Me** link will also include or lead to CV and GitHub information.
+
+After the primary hero links, there should be a small visual break with spacing and a horizontal line.
+
+Secondary contact area:
+
+- Contact title
+- Email signup
+- LinkedIn
 
 ## About Me
 
@@ -47,6 +66,8 @@ Planned topics:
 - Interest in software development
 - Interest in data analysis and artificial intelligence
 - Interest in hardware-based and drone-related projects
+- CV link
+- GitHub link
 
 ## Notes
 
@@ -104,10 +125,10 @@ Future version:
 
 Planned links:
 
-- Email
-- GitHub
+- Email signup
 - LinkedIn
-- CV
+
+GitHub and CV will be placed inside or near the About Me section instead of the main contact area.
 
 ## Design Direction
 
