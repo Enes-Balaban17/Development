@@ -12,6 +12,7 @@ This document defines the first version of the portfolio website before coding s
 6. Email Newsletter
 7. Contact
 8. Footer
+9. About Me Page
 
 ## Header / Navigation
 
@@ -84,20 +85,92 @@ Primary vertical links:
 - 💻 Projects
 - ⌨️ About Me
 
-The **About Me** link will also include or lead to CV and GitHub information.
+The **About Me** link will open the About Me page.
 
-## About Me Details
+## About Me Page
 
-Education and personal background will be included inside the About section instead of creating a separate Education section.
+The About Me page will be inspired by Tania Rascia's About Me page structure, but adapted for Enes Balaban's personal portfolio.
 
-Planned topics:
+Reference structure observed:
 
-- Computer Programming background
-- Interest in software development
-- Interest in data analysis and artificial intelligence
-- Interest in hardware-based and drone-related projects
-- CV link
-- GitHub link
+- Main About Me heading
+- Short personal introduction
+- Contact section
+- What I'm Doing Now section
+- Tools section
+- Hardware section
+- Miscellaneous section
+
+Planned page layout:
+
+```txt
+[Open folder icon] About Me
+
+I'm Enes!
+
+Short personal introduction text.
+This website is used for projects, notes, portfolio progress, and personal learning records.
+
+Mention:
+- Ege University background / graduation information
+- Open to project and internship opportunities
+- Interested technical areas
+- Personal hobbies
+
+Contact
+
+If you want to say hello, send me an email or connect via the socials.
+
+- Email: balabanenes111@icloud.com
+- Email Newsletter
+- GitHub
+- LinkedIn
+
+Certificates & Completed Educations
+
+List completed certificates, courses, programs, and trainings.
+
+What I'm Doing Right Now
+
+Current learning, project, portfolio, internship, and development focus.
+
+Tools
+
+Software and development tools used regularly.
+
+Hardware
+
+Computer setup, drone hardware, development boards, and other hardware tools.
+
+Miscellaneous
+
+- Resume
+- Minigames
+- Illustrations
+```
+
+### About Me Page Headings
+
+Main heading:
+
+- 📂 About Me
+
+Subheadings, slightly smaller than the main heading:
+
+- Contact
+- Certificates & Completed Educations
+- What I'm Doing Right Now
+- Tools
+- Hardware
+- Miscellaneous
+
+### About Me Page Notes
+
+- The page should be personal but still professional.
+- Education details will be written here instead of creating a separate Education page.
+- Experience section will not exist as a separate page or main section.
+- CV and GitHub can be included in this page.
+- The Miscellaneous section can link to extra pages such as Resume, Minigames, and Illustrations.
 
 ## Notes
 
