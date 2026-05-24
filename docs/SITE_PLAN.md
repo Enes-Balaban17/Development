@@ -5,30 +5,68 @@ This document defines the first version of the portfolio website before coding s
 ## Main Sections
 
 1. Header / Navigation
-2. Hero
-3. About Me
-4. Notes
-5. Skills
-6. Projects
-7. Email Newsletter
-8. Contact
-9. Footer
+2. About Me / Hero
+3. Notes
+4. Skills
+5. Projects
+6. Email Newsletter
+7. Contact
+8. Footer
 
 ## Header / Navigation
 
-Planned navigation items:
+The header will be minimal and inspired by clean developer websites.
 
-- Notes
-- Skills
-- Projects
-- About
-- Contact
-- Color
-- Theme
+Planned header layout:
 
-## Hero
+```txt
+[Small Game Boy Advance icon] Enes Balaban                         [Light/Dark Theme Toggle]
+────────────────────────────────────────────────────────────────────────────
+```
 
-The hero section should introduce the website quickly.
+Header elements:
+
+- Small Game Boy Advance style icon on the left
+- Name: Enes Balaban
+- Light/Dark theme toggle button on the right
+- Horizontal divider line under the header
+
+## About Me / Hero
+
+The first main content block will use **About Me** as a side heading.
+
+Final layout:
+
+```txt
+About Me
+
+Hey, I'm Enes!
+
+I'm a Computer Programming student and software developer.
+
+This is my personal website. 🌐
+
+📝 Notes
+
+💻 Projects
+
+⌨️ About Me
+
+────────────────────────────────────────────────────────────────────────────
+
+Contact
+
+Email signup
+
+LinkedIn
+```
+
+Important layout decision:
+
+- Hero/action links must be placed vertically, not side by side.
+- Contact items must also be placed vertically.
+- There should be clear spacing between text blocks.
+- A horizontal divider should separate the About/Hero action area from the Contact area.
 
 Final hero text:
 
@@ -37,26 +75,18 @@ Hey, I'm Enes!
 
 I'm a Computer Programming student and software developer.
 
-This is my personal website for sharing my projects, notes, and everything I learn while improving my skills in software development, data analysis, artificial intelligence, and hardware-based systems.
+This is my personal website. 🌐
 ```
 
-Primary hero links:
+Primary vertical links:
 
-- Notes
-- Projects
-- About Me
+- 📝 Notes
+- 💻 Projects
+- ⌨️ About Me
 
 The **About Me** link will also include or lead to CV and GitHub information.
 
-After the primary hero links, there should be a small visual break with spacing and a horizontal line.
-
-Secondary contact area:
-
-- Contact title
-- Email signup
-- LinkedIn
-
-## About Me
+## About Me Details
 
 Education and personal background will be included inside the About section instead of creating a separate Education section.
 
@@ -123,10 +153,15 @@ Future version:
 
 ## Contact
 
-Planned links:
+Planned contact layout:
 
-- Email signup
-- LinkedIn
+```txt
+Contact
+
+Email signup
+
+LinkedIn
+```
 
 GitHub and CV will be placed inside or near the About Me section instead of the main contact area.
 
@@ -135,7 +170,9 @@ GitHub and CV will be placed inside or near the About Me section instead of the 
 - Minimal layout
 - Readable typography
 - Dark and light theme support
-- Accent color selection
+- Small Game Boy Advance style identity icon
+- Vertical action links instead of horizontal buttons
+- Accent color selection if needed
 - Clean spacing
 - Responsive design
 - Simple project and note lists
