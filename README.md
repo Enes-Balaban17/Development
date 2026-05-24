@@ -1,26 +1,36 @@
 # Development
 
-This repository contains the source code of software projects I have developed throughout my academic studies and professional experience.
+This repository contains a collection of software projects developed throughout my academic studies, personal learning process, and professional experience.
 
-The purpose of this repository is to keep my projects organized, track my development progress, and present my work in a clear way.
+The main goal of this repository is to document my progress as a developer, organize my projects, and present my work in a clear and accessible way.
 
-## About
+## About Me
 
-I am a Computer Programming student interested in software development, data analysis, artificial intelligence, and hardware-based projects.
+I am a Computer Programming student with an interest in software development, data analysis, artificial intelligence, and hardware-based systems.
 
-In this repository, I will gradually share projects from different levels, including beginner, intermediate, and advanced software development examples.
+I enjoy building practical projects, improving my technical skills, and learning new technologies through hands-on development.
 
-## Repository Content
+## Project Categories
 
-This repository may include projects related to:
+This repository may include projects from different areas such as:
 
-- Web development
-- Desktop applications
-- Database systems
-- Data analysis
-- Artificial intelligence
-- Hardware and embedded systems
-- Personal learning projects
+- Web Development
+- Desktop Applications
+- Database Systems
+- Data Analysis
+- Artificial Intelligence
+- Embedded Systems
+- Personal Learning Projects
+
+## Purpose
+
+This repository is used as a development archive where I can:
+
+- Track my learning progress
+- Store project source codes
+- Improve my Git and GitHub usage
+- Build a stronger software portfolio
+- Share my projects publicly
 
 ## Author
 
