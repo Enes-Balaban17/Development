@@ -1,37 +1,43 @@
-# Development
+# Portfolio Website
 
-This repository contains a collection of software projects developed throughout my academic studies, personal learning process, and professional experience.
+This repository contains my personal portfolio website, created to showcase my projects, technical skills, and development journey.
 
-The main goal of this repository is to document my progress as a developer, organize my projects, and present my work in a clear and accessible way.
+The main purpose of this project is to present my work in a clean, organized, and accessible way.
 
-## About Me
+## About
 
-I am a Computer Programming student with an interest in software development, data analysis, artificial intelligence, and hardware-based systems.
+I am a Computer Programmer interested in software development, data analysis, artificial intelligence, and hardware-based systems.
 
-I enjoy building practical projects, improving my technical skills, and learning new technologies through hands-on development.
+This portfolio website will include information about my projects, skills, education, and contact details.
 
-## Project Categories
+## Planned Sections
 
-This repository may include projects from different areas such as:
+- About Me
+- Skills
+- Projects
+- Education
+- Experience
+- Contact
 
-- Web Development
-- Desktop Applications
-- Database Systems
-- Data Analysis
-- Artificial Intelligence
-- Embedded Systems
-- Personal Learning Projects
+## Technologies
+
+This project may include:
+
+- HTML
+- CSS
+- JavaScript
+- GitHub Pages
+
+More technologies may be added as the project develops.
 
 ## Purpose
 
-This repository is used as a development archive where I can:
-
-- Track my learning progress
-- Store project source codes
-- Improve my Git and GitHub usage
-- Build a stronger software portfolio
-- Share my projects publicly
+This project is part of my software portfolio and will be improved step by step.
 
 ## Author
 
 Developed and maintained by **Enes Balaban**.
+
+## License
+
+This project is licensed under the MIT License.
