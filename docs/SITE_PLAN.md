@@ -2,10 +2,6 @@
 
 This document defines the first version of the portfolio website before coding starts.
 
-## Inspiration
-
-The website will be inspired by minimalist developer portfolio websites. The goal is not to copy a design exactly, but to create a clean personal site with a similar structure and reading experience.
-
 ## Main Sections
 
 1. Header / Navigation
