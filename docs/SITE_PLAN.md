@@ -136,11 +136,18 @@ Current learning, project, portfolio, internship, and development focus.
 
 Tools
 
-Software and development tools used regularly.
+This website is hosted with GitHub Pages and uses a static HTML, CSS, and JavaScript structure for the first version.
+
+- Coding: Visual Studio Code, Visual Studio
+- Terminal: Windows Terminal, PowerShell, CMD
+- Notes & Planning: GitHub, GitHub Issues, Markdown
+- Databases: SQL Server Management Studio, Oracle Database tools
 
 Hardware
 
-Computer setup, drone hardware, development boards, and other hardware tools.
+Technical specifications of the devices used for software development.
+
+This section will not include drone hardware or project hardware. It will only include computers, peripherals, and devices used for coding, testing, design, and development work.
 
 Miscellaneous
 
@@ -170,6 +177,9 @@ Subheadings, slightly smaller than the main heading:
 - Education details will be written here instead of creating a separate Education page.
 - Experience section will not exist as a separate page or main section.
 - CV and GitHub can be included in this page.
+- The Hardware section will only include technical specifications of software development devices.
+- The Hardware section will not include drone hardware, FPV parts, embedded systems, or project hardware.
+- The Tools section will describe hosting/framework information first, then tool categories with marker dots.
 - The Miscellaneous section can link to extra pages such as Resume, Minigames, and Illustrations.
 
 ## Notes
