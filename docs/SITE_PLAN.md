@@ -129,7 +129,15 @@ If you want to say hello, send me an email or connect via the socials.
 
 Certificates & Completed Educations
 
-List completed certificates, courses, programs, and trainings.
+- Ege University — Computer Programming
+  Associate Degree / 2024 - 2026
+
+- Data Analysis School — Artificial Intelligence Module
+  Free online training program carried out under the auspices of the Council of Higher Education (YÖK), coordinated by Marmara University Population and Social Research Institute, with contributions from METU, ITU, and Boğaziçi University. The program focuses on combining theoretical knowledge and practical skills in data analysis, statistics, and artificial intelligence.
+  2025 - 2026
+
+- TUSAŞ LIFT UP — Industry-Oriented Undergraduate Graduation Projects Conference
+  Certificate of Participation / 2024 - 2025
 
 What I'm Doing Right Now
 
@@ -172,6 +180,27 @@ I'm interested in software development, data analysis, artificial intelligence, 
 
 Outside of software, I enjoy martial arts, especially Muay Thai, exploring hardware and electronic devices, playing tabletop RPGs, reading comics and fantasy books, researching history, watching documentaries, and nerding out about strategy games.
 ```
+
+### Certificates & Completed Educations Content
+
+```txt
+Certificates & Completed Educations
+
+- Ege University — Computer Programming
+  Associate Degree / 2024 - 2026
+
+- Data Analysis School — Artificial Intelligence Module
+  Free online training program carried out under the auspices of the Council of Higher Education (YÖK), coordinated by Marmara University Population and Social Research Institute, with contributions from METU, ITU, and Boğaziçi University. The program focuses on combining theoretical knowledge and practical skills in data analysis, statistics, and artificial intelligence.
+  2025 - 2026
+
+- TUSAŞ LIFT UP — Industry-Oriented Undergraduate Graduation Projects Conference
+  Certificate of Participation / 2024 - 2025
+```
+
+Source notes for Data Analysis School description:
+
+- Marmara University states that the program is carried out with the support of YÖK, coordinated by Marmara University Population and Social Research Institute, and supported by METU, ITU, and Boğaziçi University.
+- YÖK describes the program as free, open to broad participation, and focused on data analysis, statistics, and artificial intelligence through online modules.
 
 ### About Me Page Headings
 
