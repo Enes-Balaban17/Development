@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="SQL icon">
+  <rect width="64" height="64" rx="14" fill="#2563eb"/>
+  <ellipse cx="32" cy="20" rx="16" ry="7" fill="#ffffff" opacity=".95"/>
+  <path d="M16 20v20c0 4 7 8 16 8s16-4 16-8V20" fill="none" stroke="#ffffff" stroke-width="4"/>
+  <path d="M16 30c0 4 7 7 16 7s16-3 16-7" fill="none" stroke="#ffffff" stroke-width="4"/>
+</svg>
