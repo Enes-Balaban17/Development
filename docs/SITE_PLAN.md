@@ -141,7 +141,10 @@ Certificates & Completed Educations
 
 What I'm Doing Right Now
 
-Current learning, project, portfolio, internship, and development focus.
+- Building my personal portfolio website
+- Improving my GitHub profile
+- Open to internship, project, and collaboration opportunities
+- Improving myself in software development, data analysis, and artificial intelligence
 
 Tools
 
@@ -201,6 +204,17 @@ Source notes for Data Analysis School description:
 
 - Marmara University states that the program is carried out with the support of YÖK, coordinated by Marmara University Population and Social Research Institute, and supported by METU, ITU, and Boğaziçi University.
 - YÖK describes the program as free, open to broad participation, and focused on data analysis, statistics, and artificial intelligence through online modules.
+
+### What I'm Doing Right Now Content
+
+```txt
+What I'm Doing Right Now
+
+- Building my personal portfolio website
+- Improving my GitHub profile
+- Open to internship, project, and collaboration opportunities
+- Improving myself in software development, data analysis, and artificial intelligence
+```
 
 ### About Me Page Headings
 
