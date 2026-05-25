@@ -6,7 +6,7 @@ This document defines the visual and content plan for the Skills section/page.
 
 The Skills section will be inspired by the visual feeling of Tania Rascia's Deep Dives section: clean icon cards, short labels, simple grid layout, and readable spacing.
 
-The goal is not to create a long skill list, but to show the main technologies in a visually attractive and easy-to-scan layout.
+The reference implementation uses a `cards` grid and individual `card` links for highlighted Deep Dive items. Each card contains a small thumbnail/icon and a title, which creates a compact visual index. This portfolio will follow that visual direction with skill cards instead of tutorial cards.
 
 ## Main Layout
 
@@ -18,20 +18,37 @@ Technologies, languages, and tools I use while building software projects.
 [Icon Card] Assembly
 [Icon Card] C
 [Icon Card] C++
+
 [Icon Card] C#
 [Icon Card] Java
 [Icon Card] Kotlin
+
 [Icon Card] React
 [Icon Card] HTML
 [Icon Card] CSS
+
 [Icon Card] JavaScript
 [Icon Card] TypeScript
 [Icon Card] Terminal
+
 [Icon Card] Blender
 [Icon Card] SQL
 [Icon Card] Oracle DB
+
 [Icon Card] Data Analysis
 ```
+
+## Grid Decision
+
+The Skills section will use a single aesthetic grid.
+
+Grid rules:
+
+- 3 cards per row on desktop.
+- After 3 cards, the next skill goes to the next row.
+- 2 cards per row can be used on tablets if needed.
+- 1 card per row can be used on mobile screens.
+- Cards should stay compact, similar to the Deep Dives reference.
 
 ## Skill List
 
@@ -61,17 +78,34 @@ Each skill should be shown as a small rectangular card.
 Card structure:
 
 ```txt
-[Icon] Skill Name
+[SVG/Icon] Skill Name
 ```
 
 Design decisions:
 
 - Use a grid layout.
 - Keep cards compact and minimal.
-- Use simple icons or icon-like SVG/emoji visuals.
+- Use an SVG/icon library.
 - Avoid large descriptions inside cards.
 - The section should look closer to a visual index than a resume skill table.
 - Dark/light theme colors should adapt with the rest of the site.
+
+## Icon Source Plan
+
+Primary reference:
+
+- Tania Rascia website repository: `taniarascia/taniarascia.com`
+
+The reference site uses image thumbnails/icons inside card-style elements for the Deep Dives section. During the build phase, icons will be searched from the reference repository first.
+
+If some icons cannot be found in the reference repository, they will be completed during the website implementation phase with a suitable SVG/icon library.
+
+Possible fallback icon sources:
+
+- Simple Icons
+- Devicon
+- Local SVG files in `assets/icons/`
+- Custom minimal SVG icons
 
 ## Suggested Icon Direction
 
@@ -96,9 +130,9 @@ Possible icon ideas:
 
 ## Category Option
 
-The first version can show all skills in one clean grid.
+The first version will not use grouped categories. All skills will be shown in one visual grid.
 
-If the grid becomes crowded, skills can be grouped like this:
+If the grid becomes crowded in a future version, skills can be grouped like this:
 
 ```txt
 Programming Languages
