@@ -4,7 +4,7 @@ This document defines the first version of the portfolio website before coding s
 
 ## Main Sections
 
-1. Header / Navigation
+1. Sidebar / Navigation
 2. About Me / Hero
 3. Notes
 4. Skills
@@ -14,23 +14,52 @@ This document defines the first version of the portfolio website before coding s
 8. Footer
 9. About Me Page
 
-## Header / Navigation
+## Layout / Sidebar Navigation
 
-The header will be minimal and inspired by clean developer websites.
+The website will use a left sidebar layout inspired by Tania Rascia's website.
 
-Planned header layout:
+The original content plan will stay the same, but it will be adapted into a sidebar-based layout.
+
+Planned desktop layout:
 
 ```txt
-[Small Game Boy Advance icon] Enes Balaban                         [Light/Dark Theme Toggle]
-────────────────────────────────────────────────────────────────────────────
+┌──────────────────────────────┬───────────────────────────────────────────────┐
+│ Sidebar                      │ Main Content                                  │
+│                              │                                               │
+│ [Small Game Boy Advance icon]│ About Me / Notes / Projects / Skills pages   │
+│ Enes Balaban                 │                                               │
+│ Theme Toggle                 │                                               │
+│                              │                                               │
+│ About Me                     │                                               │
+│ Notes                        │                                               │
+│ Projects                     │                                               │
+│ Skills                       │                                               │
+│                              │                                               │
+│ Contact                      │                                               │
+│ Email signup                 │                                               │
+│ LinkedIn                     │                                               │
+└──────────────────────────────┴───────────────────────────────────────────────┘
 ```
 
-Header elements:
+Sidebar elements:
 
-- Small Game Boy Advance style icon on the left
+- Small Game Boy Advance style icon
 - Name: Enes Balaban
-- Light/Dark theme toggle button on the right
-- Horizontal divider line under the header
+- Light/Dark theme toggle button
+- Main navigation links:
+  - About Me
+  - Notes
+  - Projects
+  - Skills
+- Contact block:
+  - Email signup
+  - LinkedIn
+
+Mobile layout:
+
+- Sidebar collapses or moves above the main content.
+- Navigation remains simple and readable.
+- Vertical link structure is preserved.
 
 ## About Me / Hero
 
@@ -68,6 +97,7 @@ Important layout decision:
 - Contact items must also be placed vertically.
 - There should be clear spacing between text blocks.
 - A horizontal divider should separate the About/Hero action area from the Contact area.
+- The desktop version will place navigation/contact items inside the left sidebar.
 
 Final hero text:
 
@@ -456,6 +486,7 @@ GitHub and CV will be placed inside or near the About Me section instead of the 
 ## Design Direction
 
 - Minimal layout
+- Left sidebar layout inspired by Tania Rascia's website
 - Readable typography
 - Dark and light theme support
 - Small Game Boy Advance style identity icon
