@@ -15,13 +15,13 @@ The reference implementation uses a `cards` grid and individual `card` links for
 
 Technologies, languages, and tools I use while building software projects.
 
-[Icon Card] Assembly
 [Icon Card] C
 [Icon Card] C++
-
 [Icon Card] C#
+
 [Icon Card] Java
 [Icon Card] Kotlin
+[Icon Card] Assembly
 
 [Icon Card] React
 [Icon Card] HTML
@@ -34,8 +34,6 @@ Technologies, languages, and tools I use while building software projects.
 [Icon Card] Blender
 [Icon Card] SQL
 [Icon Card] Oracle DB
-
-[Icon Card] Data Analysis
 ```
 
 ## Grid Decision
@@ -46,6 +44,8 @@ Grid rules:
 
 - 3 cards per row on desktop.
 - After 3 cards, the next skill goes to the next row.
+- C, C++, and C# will be placed on the same row.
+- Java, Kotlin, and Assembly will be placed on the same row.
 - 2 cards per row can be used on tablets if needed.
 - 1 card per row can be used on mobile screens.
 - Cards should stay compact, similar to the Deep Dives reference.
@@ -54,12 +54,12 @@ Grid rules:
 
 Final skills to show:
 
-- Assembly
 - C
 - C++
 - C#
 - Java
 - Kotlin
+- Assembly
 - React
 - HTML
 - CSS
@@ -69,7 +69,6 @@ Final skills to show:
 - Blender
 - SQL
 - Oracle DB
-- Data Analysis
 
 ## Visual Style
 
@@ -111,12 +110,12 @@ Possible fallback icon sources:
 
 Possible icon ideas:
 
-- Assembly: chip / low-level icon
 - C: C language icon
 - C++: C++ language icon
 - C#: C# language icon
 - Java: Java icon
 - Kotlin: Kotlin icon
+- Assembly: chip / low-level icon
 - React: React atom icon
 - HTML: HTML5 icon
 - CSS: CSS3 icon
@@ -126,7 +125,6 @@ Possible icon ideas:
 - Blender: Blender icon
 - SQL: database icon
 - Oracle DB: Oracle/database icon
-- Data Analysis: chart/analytics icon
 
 ## Category Option
 
@@ -136,13 +134,13 @@ If the grid becomes crowded in a future version, skills can be grouped like this
 
 ```txt
 Programming Languages
-Assembly, C, C++, C#, Java, Kotlin, JavaScript, TypeScript
+C, C++, C#, Java, Kotlin, Assembly, JavaScript, TypeScript
 
 Frontend
 React, HTML, CSS
 
-Database & Data
-SQL, Oracle DB, Data Analysis
+Database
+SQL, Oracle DB
 
 Tools
 Terminal, Blender
