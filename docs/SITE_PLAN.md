@@ -342,6 +342,76 @@ Example note titles:
 - Building My GitHub Profile
 - Completed Projects in 2026
 
+## Projects Page
+
+The Projects page will be inspired by a minimal archive/list style. It will not use heavy project cards. Projects will be shown as a clean yearly list.
+
+Planned Projects page layout:
+
+```txt
+💻 Projects
+
+Selected software projects, experiments, and portfolio work.
+
+[Search projects input]
+
+2026
+
+Project Name
+Short project description.
+Demo / Source
+
+Project Name
+Short project description.
+Source
+
+2025
+
+Project Name
+Short project description.
+Demo / Source
+```
+
+Project item structure:
+
+- Year
+- Project name
+- Short description
+- Technologies used
+- Demo link when available
+- Source link
+- Optional details link when needed
+
+Link display rules:
+
+- If a project has a live demo, show: Demo / Source
+- If a project does not have a live demo, show only: Source
+- If a project needs more explanation but no demo exists, show: Details / Source
+- If a project is not public yet, show: In Progress or Private
+
+Projects page design decisions:
+
+- Projects will be grouped by year.
+- Project links will stay simple and text-based.
+- No large image cards in the first version.
+- Demo and Source links will be placed under the project description.
+- Some projects may not have a Demo link, so the layout must support optional links.
+- Possible tags: web, database, ai, data-analysis, desktop, academic, hardware-related, portfolio.
+
+Example project entries:
+
+- Portfolio Website
+  Personal portfolio website for sharing projects, notes, and development progress.
+  Demo / Source
+
+- Database Management Project
+  Academic database project focused on schema design, relationships, and SQL queries.
+  Source
+
+- Dorian Face Recognition System
+  Face recognition and monitoring system developed as a software-focused academic project.
+  Details / Source
+
 ## Skills
 
 The Skills section will be presented visually with icons or icon-like cards.
@@ -354,19 +424,6 @@ Planned categories:
 - Tools
 - Artificial Intelligence & Data Analysis
 - Hardware & Drone Projects
-
-## Projects
-
-Projects will be listed in a clean timeline/list format.
-
-Each project item should include:
-
-- Year
-- Project name
-- Short description
-- Technologies
-- Source link
-- Demo or Details link when available
 
 ## Email Newsletter
 
