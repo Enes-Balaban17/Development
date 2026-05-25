@@ -26,8 +26,7 @@ Planned desktop layout:
 ┌──────────────────────────────┬───────────────────────────────────────────────┐
 │ Sidebar                      │ Main Content                                  │
 │                              │                                               │
-│ [Small Game Boy Advance icon]│ About Me / Notes / Projects / Skills pages   │
-│ Enes Balaban                 │                                               │
+│ [GBA icon] Enes Balaban      │ About Me / Notes / Projects / Skills pages   │
 │ Theme Toggle                 │                                               │
 │                              │                                               │
 │ About Me                     │                                               │
@@ -43,7 +42,7 @@ Planned desktop layout:
 
 Sidebar elements:
 
-- Small Game Boy Advance style icon
+- Small Game Boy Advance style icon placed immediately to the left of the name
 - Name: Enes Balaban
 - Light/Dark theme toggle button
 - Main navigation links:
@@ -54,6 +53,12 @@ Sidebar elements:
 - Contact block:
   - Email signup
   - LinkedIn
+
+Sidebar identity row:
+
+```txt
+[Small Game Boy Advance icon] Enes Balaban
+```
 
 Mobile layout:
 
@@ -489,7 +494,7 @@ GitHub and CV will be placed inside or near the About Me section instead of the 
 - Left sidebar layout inspired by Tania Rascia's website
 - Readable typography
 - Dark and light theme support
-- Small Game Boy Advance style identity icon
+- Small Game Boy Advance style identity icon placed directly next to the name
 - Vertical action links instead of horizontal buttons
 - Accent color selection if needed
 - Clean spacing
