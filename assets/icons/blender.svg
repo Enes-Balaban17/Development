@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Blender icon">
+  <rect width="64" height="64" rx="14" fill="#f5792a"/>
+  <path d="M20 36c0-7 6-12 13-12 6 0 11 4 11 10s-5 11-12 11c-7 0-12-4-12-9Z" fill="#ffffff" opacity=".9"/>
+  <circle cx="34" cy="34" r="5" fill="#f5792a"/>
+  <path d="M18 23h16M24 16l10 7M16 31l18-8" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+</svg>
