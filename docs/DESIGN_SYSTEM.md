@@ -166,19 +166,19 @@ dark card border: gray-7
 Body font:
 
 ```txt
-system sans-serif stack
+-apple-system, BlinkMacSystemFont, Avenir, Helvetica, Arial, sans-serif
 ```
 
 Heading font:
 
 ```txt
-Outfit-style sans-serif
+Outfit, -apple-system, BlinkMacSystemFont, DM Sans, Avenir, Helvetica, Arial, sans-serif
 ```
 
 Monospace font:
 
 ```txt
-Menlo or similar code font
+Menlo, Google Sans Code, monospace
 ```
 
 Base heading sizes:
