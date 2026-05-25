@@ -161,6 +161,16 @@ Technical specifications of the devices used for software development.
 
 This section will not include drone hardware or project hardware. It will only include computers, peripherals, and devices used for coding, testing, design, and development work.
 
+- Coding PC: Asus TUF Gaming F15
+  - CPU:
+  - Motherboard:
+  - Memory:
+  - Storage:
+  - GPU:
+- Side Monitor: TUF Gaming VG27AQ
+- Keyboard: TUF F3
+- Headphones: SteelSeries Arctis Nova 3
+
 Miscellaneous
 
 - Resume
@@ -227,6 +237,24 @@ This website is hosted with GitHub Pages and uses a static HTML, CSS, and JavaSc
 - Terminal: Linux Terminal, PowerShell ISE
 - Notes & Planning: GitHub, GitHub Issues, Markdown
 - Databases: SQL Server Management Studio, Oracle Database tools
+```
+
+### Hardware Content
+
+```txt
+Hardware
+
+Technical specifications of the devices used for software development.
+
+- Coding PC: Asus TUF Gaming F15
+  - CPU:
+  - Motherboard:
+  - Memory:
+  - Storage:
+  - GPU:
+- Side Monitor: TUF Gaming VG27AQ
+- Keyboard: TUF F3
+- Headphones: SteelSeries Arctis Nova 3
 ```
 
 ### About Me Page Headings
