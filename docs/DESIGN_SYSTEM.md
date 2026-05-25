@@ -1,15 +1,59 @@
 # Design System Plan
 
-This document defines the first visual design decisions for the portfolio website.
+This document defines the final visual rules for the first implementation phase.
 
-## Layout
+## Overall Direction
 
-The website will use a left sidebar layout inspired by Tania Rascia's website.
+The site will use a minimal developer-portfolio layout with a fixed left sidebar on desktop and a compact top navigation on smaller screens.
 
-Desktop layout:
+The design should be text-first, warm in light mode, dark gray in dark mode, and easy to read.
+
+## Layout Values
+
+Use these values during implementation:
 
 ```txt
-[Sidebar] [Main Content]
+navbar height: 60px
+footer height: 60px
+content width: 760px
+sidebar width: 260px
+optional right/post sidebar width: 260px
+main layout width: content width + optional right/post sidebar width
+mobile/base padding: 1.5rem vertical and horizontal
+tablet/desktop padding: 2rem vertical and horizontal
+border radius: 6px
+```
+
+## Breakpoints
+
+```txt
+600px and above:
+- increase layout padding to 2rem
+- increase heading sizes
+
+800px and above:
+- larger hero/page heading around 3rem
+
+1020px and above:
+- show left sidebar
+- hide compact top navigation
+- use two-column layout: 260px sidebar + main content
+
+1360px and above:
+- allow wider layout with optional right-side content area
+```
+
+## Sidebar
+
+Sidebar behavior:
+
+```txt
+width: 260px
+position: sticky on desktop
+height: 100vh
+scrollable if content overflows
+border-right: 1px solid border color
+hidden below 1020px
 ```
 
 Sidebar identity row:
@@ -18,96 +62,157 @@ Sidebar identity row:
 [Small Game Boy Advance icon] Enes Balaban [Light/Dark Theme Toggle]
 ```
 
-Sidebar navigation:
+Sidebar identity styling:
 
 ```txt
-About Me
-Notes
-Projects
-Skills
-
-Contact
-Email signup
-LinkedIn
+horizontal flex row
+items centered vertically
+0.75rem gap
+site name font size: 18px
+site name weight: 500
 ```
 
-## Page Width
-
-Main content should stay readable and not become too wide.
-
-Planned values:
-
-- Sidebar width: 240px - 280px
-- Main content max-width: 760px - 900px
-- Main content padding: comfortable spacing on desktop, smaller spacing on mobile
-
-## Theme
-
-The website will support dark and light themes.
-
-Dark theme direction:
-
-- Background: near-black / dark gray
-- Sidebar: slightly different dark tone
-- Text: off-white
-- Muted text: gray
-- Borders: subtle dark gray
-- Cards: dark gray with thin border
-
-Light theme direction:
-
-- Background: off-white
-- Sidebar: very light gray
-- Text: dark gray / near-black
-- Muted text: medium gray
-- Borders: light gray
-- Cards: white or very light gray with thin border
-
-## Accent Color
-
-The accent color will be used for links, active navigation items, and small highlights.
-
-Initial accent direction:
-
-- Blue / cyan accent similar to clean developer websites
-
-Possible accent examples:
+Sidebar section styling:
 
 ```txt
-#38bdf8
-#60a5fa
-#7dd3fc
+margin: 1.25rem
+padding-bottom: 1.5rem
+border-bottom: 1px solid border color
+```
+
+Sidebar navigation styling:
+
+```txt
+links are vertical
+2px gap between nav links
+font size: 16px
+font weight: 500
+padding: 4px 0.5rem
+small negative horizontal margin for alignment
+border radius: 6px
+active link uses highlighted background and accent text
+```
+
+## Color Palette
+
+Core dark gray palette:
+
+```txt
+gray-0  #fbfbfb
+gray-1  #eeeeee
+gray-2  #e4e4e7
+gray-3  #d4d4d8
+gray-4  #c8c8cf
+gray-5  #a1a1a8
+gray-6  #4e4e55
+gray-7  #323239
+gray-8  #25252b
+gray-9  #1c1c20
+gray-10 #1d1d22
+gray-11 #16161a
+gray-12 #0d0d11
+```
+
+Core warm light palette:
+
+```txt
+beige-0  #fdf9ee
+beige-1  #f6f0df
+beige-2  #eee8d5
+beige-25 #e5dcbd
+beige-3  #ded4b2
+beige-4  #c6ba93
+```
+
+Accent palette:
+
+```txt
+yellow light/dark:   #ac7c14 / #fcdc97
+green light/dark:    #2d922d / #92d192
+pink light/dark:     #d33682 / #ff8ac0
+lavender light/dark: #a455be / #d48ceb
+blue light/dark:     #2f71b4 / #6ab0f3
+```
+
+First version accent:
+
+```txt
+pink
+```
+
+Main color mapping:
+
+```txt
+light background: beige-0
+dark background: gray-9
+light sidebar: beige-0
+dark sidebar: gray-9
+light card: beige-1
+dark card: gray-8
+light text: gray-8
+dark text: gray-3
+light emphasized text: gray-10
+dark emphasized text: gray-0
+light muted text: gray-6
+dark muted text: gray-5
+light border: beige-25
+dark border: gray-7
+light card border: beige-3
+dark card border: gray-7
 ```
 
 ## Typography
 
-The typography should be simple, readable, and developer-portfolio friendly.
+Body font:
 
-First version options:
+```txt
+system sans-serif stack
+```
 
-- System font stack
-- Inter-like sans-serif style
+Heading font:
 
-Planned default:
+```txt
+Outfit-style sans-serif
+```
 
-```css
-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+Monospace font:
+
+```txt
+Menlo or similar code font
+```
+
+Base heading sizes:
+
+```txt
+h1: 2.2rem
+h2: 1.8rem
+h3: 1.6rem
+h4: 1.2rem
+```
+
+Larger screens:
+
+```txt
+h1: 2.8rem
+h2: 2.3rem
+h3: 1.9rem
+h4: 1.5rem
+hero/page h1: about 3rem
 ```
 
 ## Cards
 
-Skill cards and project-related cards should stay minimal.
-
 Card rules:
 
-- Thin border
-- Small border radius
-- Compact padding
-- Icon on the left, text on the right
-- Hover effect can slightly change border or background
-- No heavy shadows in the first version
+```txt
+border radius: 6px
+thin border
+compact padding
+subtle hover background or border change
+no heavy shadow in the first version
+```
 
-Skill card layout:
+Skill cards:
 
 ```txt
 [Icon] Skill Name
@@ -115,46 +220,67 @@ Skill card layout:
 
 Skills grid:
 
-- 3 cards per row on desktop
-- 2 cards per row on tablet if needed
-- 1 card per row on mobile
+```txt
+3 cards per row on desktop
+2 cards per row on tablet if needed
+1 card per row on mobile
+```
 
-## Links and Buttons
+## Buttons and Links
 
-Links should be simple text links, not large heavy buttons.
+Button rules:
+
+```txt
+inline-flex
+center aligned
+2px border
+10px 14px padding
+6px radius
+font size 1rem
+font weight 600
+small button: 14px font, 0.5rem 0.75rem padding
+extra small button: 11px font, 0.25rem 0.5rem padding
+```
+
+Link rules:
+
+```txt
+accent color for normal text links
+active sidebar link is visually clear
+hover state changes color or background subtly
+```
+
+## Archive Lists
+
+Notes and Projects should use clean archive lists.
 
 Rules:
 
-- Accent color for links
-- Underline or color change on hover
-- Active sidebar item should be visually clear
-- Main action links should remain vertical
-
-## Divider Lines
-
-Divider lines will be used to create the clean archive-like feeling.
-
-Use cases:
-
-- Between sidebar sections
-- Between content sections
-- Between archive/list items when needed
+```txt
+group by year
+use simple text links
+keep generous spacing
+avoid large image cards
+support optional search input later
+```
 
 ## Mobile Behavior
 
-On mobile screens:
+```txt
+left sidebar hidden
+compact top navigation shown
+navigation remains readable and easy to tap
+skills grid becomes one column
+main content uses comfortable side padding
+```
 
-- Sidebar should move above the content or collapse into a compact top area.
-- Navigation links should remain easy to tap.
-- Skills grid should become one column.
-- Main content should have comfortable side padding.
+## Implementation Priority
 
-## First Version Design Goal
-
-The first version should feel:
-
-- Minimal
-- Dark-theme friendly
-- Developer-focused
-- Clean and readable
-- Inspired by Tania Rascia's layout, but customized for Enes Balaban's personal portfolio
+1. CSS variables
+2. Base typography
+3. Sidebar layout
+4. Main content layout
+5. Cards and skill grid
+6. Archive list styling
+7. Theme toggle styling
+8. Responsive styling
