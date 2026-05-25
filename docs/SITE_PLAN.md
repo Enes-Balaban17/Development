@@ -43,7 +43,7 @@ About Me
 
 Hey, I'm Enes!
 
-I'm a Computer Programming student and software developer.
+I'm a Computer Programming graduate and software developer.
 
 This is my personal website. 🌐
 
@@ -74,7 +74,7 @@ Final hero text:
 ```txt
 Hey, I'm Enes!
 
-I'm a Computer Programming student and software developer.
+I'm a Computer Programming graduate and software developer.
 
 This is my personal website. 🌐
 ```
@@ -108,14 +108,15 @@ Planned page layout:
 
 I'm Enes!
 
-Short personal introduction text.
-This website is used for projects, notes, portfolio progress, and personal learning records.
+I'm a Computer Programming graduate from Ege University and a software developer based in Türkiye.
 
-Mention:
-- Ege University background / graduation information
-- Open to project and internship opportunities
-- Interested technical areas
-- Personal hobbies
+I use this website as my personal space for sharing my projects, notes, portfolio progress, and the things I learn while improving myself as a developer.
+
+I'm open to project, internship, and collaboration opportunities where I can improve my skills and contribute to real-world software projects.
+
+I'm interested in software development, data analysis, artificial intelligence, database systems, and web technologies.
+
+Outside of software, I enjoy martial arts, especially Muay Thai, exploring hardware and electronic devices, playing tabletop RPGs, reading comics and fantasy books, researching history, watching documentaries, and nerding out about strategy games.
 
 Contact
 
@@ -154,6 +155,22 @@ Miscellaneous
 - Resume
 - Minigames
 - Illustrations
+```
+
+### Final About Me Introduction Text
+
+```txt
+I'm Enes!
+
+I'm a Computer Programming graduate from Ege University and a software developer based in Türkiye.
+
+I use this website as my personal space for sharing my projects, notes, portfolio progress, and the things I learn while improving myself as a developer.
+
+I'm open to project, internship, and collaboration opportunities where I can improve my skills and contribute to real-world software projects.
+
+I'm interested in software development, data analysis, artificial intelligence, database systems, and web technologies.
+
+Outside of software, I enjoy martial arts, especially Muay Thai, exploring hardware and electronic devices, playing tabletop RPGs, reading comics and fantasy books, researching history, watching documentaries, and nerding out about strategy games.
 ```
 
 ### About Me Page Headings
