@@ -2,6 +2,53 @@
 
 This document defines the final site plan for the first implementation phase.
 
+## Implementation Source of Truth
+
+Before coding, read the planning files in this order:
+
+1. `docs/SITE_PLAN.md`
+   - Main source for page content, page purpose, section order, and navigation structure.
+
+2. `docs/FILE_STRUCTURE.md`
+   - Source for the exact file/folder structure.
+   - Source for the framework decision.
+   - First version must use static HTML, CSS, and JavaScript with GitHub Pages.
+   - Do not add Gatsby, React, Vite, Astro, Next.js, Eleventy, or another framework in the first version.
+
+3. `docs/DESIGN_SYSTEM.md`
+   - Source for layout dimensions, colors, typography, sidebar behavior, cards, buttons, links, breakpoints, and responsive rules.
+   - Use the values in this file when implementing `css/style.css`.
+
+4. `docs/SKILLS_PLAN.md`
+   - Source for the Skills page content.
+   - Use this file for the exact skill order, grid rules, and skill card behavior.
+   - The Skills section in this file is only a summary. The detailed implementation rules are in `docs/SKILLS_PLAN.md`.
+
+5. `docs/ICON_SOURCES.md`
+   - Source for available icon files.
+   - Use local icons from `assets/icons/`.
+   - Do not use remote image URLs for skill icons unless explicitly changed later.
+
+Implementation rule:
+
+```txt
+SITE_PLAN.md tells what pages and sections exist.
+FILE_STRUCTURE.md tells where files must be created.
+DESIGN_SYSTEM.md tells how the site must look.
+SKILLS_PLAN.md tells how the Skills page/grid must be built.
+ICON_SOURCES.md tells which icon files to use.
+```
+
+If there is a conflict between files:
+
+```txt
+Page content and section order: SITE_PLAN.md
+File/folder structure: FILE_STRUCTURE.md
+Visual design and dimensions: DESIGN_SYSTEM.md
+Skills grid and ordering: SKILLS_PLAN.md
+Icon usage: ICON_SOURCES.md
+```
+
 ## Main Sections
 
 1. Sidebar / Navigation
@@ -221,7 +268,13 @@ Link display rules:
 
 ## Skills Page
 
-Final skill order:
+The Skills page must be implemented according to:
+
+```txt
+docs/SKILLS_PLAN.md
+```
+
+Summary of the final skill order:
 
 ```txt
 C / C++ / C#
@@ -231,12 +284,14 @@ JavaScript / TypeScript / Terminal
 Blender / SQL / Oracle DB
 ```
 
-Grid rules:
+Summary of grid rules:
 
 - 3 cards per row on desktop.
 - 2 cards per row on tablet if needed.
 - 1 card per row on mobile.
-- Use local icons from assets/icons.
+- Use local icons from `assets/icons/`.
+- Use icon file details from `docs/ICON_SOURCES.md`.
+- Use card dimensions, colors, spacing, hover rules, and responsive rules from `docs/DESIGN_SYSTEM.md`.
 
 ## Visual Direction
 
@@ -246,12 +301,30 @@ Use the final first-version visual rules in:
 docs/DESIGN_SYSTEM.md
 ```
 
-## Framework Decision
+Do not guess colors, spacing, sidebar width, content width, card style, typography, or breakpoints from this file alone. Use `docs/DESIGN_SYSTEM.md` for those details.
+
+## Framework and File Structure Decision
 
 Use the final first-version file and framework decision in:
 
 ```txt
 docs/FILE_STRUCTURE.md
+```
+
+Do not create files outside the planned structure unless necessary. Do not introduce a framework in the first version.
+
+## Icon Source Decision
+
+Use the final icon list and icon usage notes in:
+
+```txt
+docs/ICON_SOURCES.md
+```
+
+Use local icons from:
+
+```txt
+assets/icons/
 ```
 
 ## Acknowledgement
