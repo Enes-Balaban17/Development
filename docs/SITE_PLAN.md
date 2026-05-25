@@ -283,17 +283,64 @@ Subheadings, slightly smaller than the main heading:
 - The Tools section will describe hosting/framework information first, then tool categories with marker dots.
 - The Miscellaneous section can link to extra pages such as Resume, Minigames, and Illustrations.
 
-## Notes
+## Notes Page
 
-The website will not include a traditional blog. Instead, it will have a Notes section.
+The website will not include a traditional blog. Instead, it will have a Notes section inspired by yearly note/archive pages.
 
-Possible note types:
+The Notes page will be used for short personal and technical records such as:
 
+- Year in Review notes
+- Events attended
+- Completed projects
+- Completed courses or trainings
+- Short development notes
 - Learning logs
-- Development notes
 - Project planning notes
 - Technical reminders
 - GitHub portfolio progress notes
+
+Planned Notes page layout:
+
+```txt
+📝 Notes
+
+Short notes about my yearly progress, events, completed projects, completed educations, and development journey.
+
+[Search notes input]
+
+2026
+
+Date        Note title
+Date        Note title
+
+2025
+
+Date        Note title
+Date        Note title
+
+2024
+
+Date        Note title
+Date        Note title
+```
+
+Notes page design decisions:
+
+- Notes will be grouped by year.
+- Each note will have a date, title, and optional tag.
+- Notes will be listed in a simple archive style.
+- The page may include a search input like the reference design.
+- Notes will be shorter and more personal than full blog posts.
+- Possible tags: year-in-review, event, project, education, certificate, development, portfolio.
+
+Example note titles:
+
+- Year in Review: 2025 into 2026
+- Starting My Portfolio Website
+- Data Analysis School — Artificial Intelligence Module
+- TUSAŞ LIFT UP Participation Notes
+- Building My GitHub Profile
+- Completed Projects in 2026
 
 ## Skills
 
