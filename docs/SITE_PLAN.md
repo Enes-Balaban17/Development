@@ -150,8 +150,8 @@ Tools
 
 This website is hosted with GitHub Pages and uses a static HTML, CSS, and JavaScript structure for the first version.
 
-- Coding: Visual Studio Code, Visual Studio
-- Terminal: Windows Terminal, PowerShell, CMD
+- Coding: Visual Studio Code, Visual Studio, IntelliJ IDEA, PyCharm, Arduino IDE
+- Terminal: Linux Terminal, PowerShell ISE
 - Notes & Planning: GitHub, GitHub Issues, Markdown
 - Databases: SQL Server Management Studio, Oracle Database tools
 
@@ -214,6 +214,19 @@ What I'm Doing Right Now
 - Improving my GitHub profile
 - Open to internship, project, and collaboration opportunities
 - Improving myself in software development, data analysis, and artificial intelligence
+```
+
+### Tools Content
+
+```txt
+Tools
+
+This website is hosted with GitHub Pages and uses a static HTML, CSS, and JavaScript structure for the first version.
+
+- Coding: Visual Studio Code, Visual Studio, IntelliJ IDEA, PyCharm, Arduino IDE
+- Terminal: Linux Terminal, PowerShell ISE
+- Notes & Planning: GitHub, GitHub Issues, Markdown
+- Databases: SQL Server Management Studio, Oracle Database tools
 ```
 
 ### About Me Page Headings
