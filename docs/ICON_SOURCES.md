@@ -48,7 +48,8 @@ During the implementation phase, icons can be replaced or improved while keeping
 ## Implementation Notes
 
 - Prefer local files over remote image links.
-- Keep icon sizes visually consistent.
+- Keep icon sizes visually consistent across the Skills grid.
 - Use the same card dimensions for all skill cards.
 - Icons should adapt well to both dark and light themes.
 - If an icon has poor contrast in one theme, replace it with a cleaner SVG.
+- Keep file names stable so existing HTML references do not break.
