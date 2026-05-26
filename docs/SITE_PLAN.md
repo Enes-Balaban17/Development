@@ -69,6 +69,8 @@ Desktop sidebar structure:
 [Small Game Boy Advance icon] Enes Balaban [Theme Toggle]
 
 About Me
+I'm Enes, a software developer and Computer Programming graduate. This is my personal website.
+
 Notes
 Projects
 Skills
@@ -83,10 +85,12 @@ Sidebar rules:
 - Use a left sidebar on desktop.
 - Place the Game Boy Advance icon immediately to the left of the name.
 - Place the theme toggle immediately to the right of the name.
+- Add a short About Me block near the top of the sidebar.
 - Keep navigation links vertical.
 - Keep contact links vertical.
 - Keep the sidebar sticky on desktop.
 - On mobile, move the navigation above the content or use a compact top navigation.
+- Sidebar spacing, margin, link padding, and border behavior must follow `docs/DESIGN_SYSTEM.md`.
 
 ## Home / Hero
 
@@ -113,12 +117,22 @@ Email signup
 LinkedIn
 ```
 
+Hero mascot:
+
+```txt
+assets/images/enescot.png
+```
+
 Hero rules:
 
 - Action links are vertical.
 - Contact links are vertical.
 - Use clear spacing between text blocks.
 - Use a divider between action links and contact links.
+- Add the mascot image to the right side of the hero text on desktop.
+- The mascot must be positioned like a right-side hero illustration, aligned around the heading and intro text area.
+- On small screens, stack the mascot below the hero text or hide it if it hurts readability.
+- Use hero mascot sizing and positioning rules from `docs/DESIGN_SYSTEM.md`.
 
 ## About Me Page
 
