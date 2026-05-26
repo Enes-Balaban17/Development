@@ -8,6 +8,17 @@ The site will use a minimal developer-portfolio layout with a fixed left sidebar
 
 The design should be text-first, warm in light mode, dark gray in dark mode, and comfortable to read.
 
+## Reference Match Requirements
+
+The implementation must closely follow the reference layout proportions:
+
+- Sidebar must feel aligned to the far-left edge with the same compact inner spacing.
+- Sidebar content should not float too far from the left edge.
+- Main content should start after the 260px sidebar with comfortable but not excessive left spacing.
+- The home hero must support a mascot image positioned to the right of the main hero text on desktop.
+- The mascot should visually occupy the same general area as the reference hero illustration: right side of the hero block, aligned around the top/middle of the hero heading and intro text.
+- The hero text and mascot must become a single-column layout on smaller screens.
+
 ## Layout Values
 
 Use these values during implementation:
@@ -80,6 +91,16 @@ padding-bottom: 1.5rem
 border-bottom: 1px solid border color
 ```
 
+Sidebar short About Me block:
+
+```txt
+heading: About Me
+text: I'm Enes, a software developer and Computer Programming graduate. This is my personal website.
+font size: 14px - 15px
+line height: 1.6
+muted/emphasized mixed text styling is allowed
+```
+
 Sidebar navigation styling:
 
 ```txt
@@ -91,6 +112,34 @@ padding: 4px 0.5rem
 small negative horizontal margin for alignment
 border radius: 6px
 active link uses highlighted background and accent text
+```
+
+## Home Hero Mascot
+
+Use this asset for the home page hero mascot:
+
+```txt
+assets/images/enescot.png
+```
+
+Mascot placement rules:
+
+```txt
+desktop: right side of hero intro
+max width: 360px - 420px
+image should not push text too far down
+align around heading/top intro area
+use object-fit: contain
+keep transparent background
+hide or stack below text on small screens if needed
+```
+
+Recommended structure:
+
+```txt
+hero section
+- hero text column
+- mascot image column
 ```
 
 ## Color Palette
@@ -163,6 +212,12 @@ dark card border: gray-7
 
 ## Typography
 
+Import these fonts in CSS:
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&display=swap');
+```
+
 Body font:
 
 ```txt
@@ -198,6 +253,18 @@ h2: 2.3rem
 h3: 1.9rem
 h4: 1.5rem
 hero/page h1: about 3rem
+```
+
+Typography rules:
+
+```txt
+body line-height: 1.6
+body font weight: 400
+main h1 font weight: 700
+main h2/h3 font weight: 600
+sidebar site name weight: 500
+button/link emphasis weight: 500 - 600
+use font smoothing for cleaner rendering
 ```
 
 ## Cards
@@ -272,6 +339,7 @@ compact top navigation shown
 navigation remains readable and easy to tap
 skills grid becomes one column
 main content uses comfortable side padding
+hero mascot stacks below hero text or is hidden if it hurts readability
 ```
 
 ## Implementation Priority
@@ -279,8 +347,10 @@ main content uses comfortable side padding
 1. CSS variables
 2. Base typography
 3. Sidebar layout
-4. Main content layout
-5. Cards and skill grid
-6. Archive list styling
-7. Theme toggle styling
-8. Responsive styling
+4. Sidebar short About Me block
+5. Main content layout
+6. Home hero mascot placement
+7. Cards and skill grid
+8. Archive list styling
+9. Theme toggle styling
+10. Responsive styling
