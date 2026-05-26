@@ -6,7 +6,7 @@ This document defines the final visual rules for the first implementation phase.
 
 The site will use a minimal developer-portfolio layout with a fixed left sidebar on desktop and a compact top navigation on smaller screens.
 
-The design should be text-first, warm in light mode, dark gray in dark mode, and easy to read.
+The design should be text-first, warm in light mode, dark gray in dark mode, and comfortable to read.
 
 ## Layout Values
 
@@ -32,7 +32,7 @@ border radius: 6px
 - increase heading sizes
 
 800px and above:
-- larger hero/page heading around 3rem
+- use larger hero/page headings around 3rem
 
 1020px and above:
 - show left sidebar
