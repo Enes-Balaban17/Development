@@ -317,6 +317,43 @@ active sidebar link is visually clear
 hover state changes color or background subtly
 ```
 
+## Theme Toggle Button
+
+Use these local icon assets:
+
+```txt
+assets/icons/theme-sun.svg
+assets/icons/theme-moon.svg
+```
+
+Theme toggle visual rules:
+
+```txt
+icon-only button
+24px icon size
+button visual area: 34px - 36px square
+transparent background by default
+no visible square border by default
+no visible frame by default
+border radius: 6px
+color follows current theme text color
+subtle square background/border appears only on hover and keyboard focus
+hover background: navbar/input hover background color
+focus outline must remain accessible
+transition: 0.12s ease
+```
+
+Behavior rules:
+
+```txt
+when current theme is dark: show moon icon or use moon as active state indicator
+when current theme is light: show sun icon or use sun as active state indicator
+save selected theme to localStorage
+update aria-label between light/dark theme states
+```
+
+Do not use a permanently boxed button. The icon should look clean and modern on the sidebar identity row; the square frame appears only when the mouse hovers over it or when the button receives keyboard focus.
+
 ## Archive Lists
 
 Notes and Projects should use clean archive lists.
