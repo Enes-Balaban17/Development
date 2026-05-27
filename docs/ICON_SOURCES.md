@@ -48,17 +48,33 @@ Theme icon rules:
 
 Current local homepage UI icon files:
 
-- `folder-open.svg` for the About Me action button
-- `email-newsletter.svg` for the Email Newsletter action button
+- `aboutme-icon.svg` for the About Me action button
+- `mailnewsletter-icon.svg` for the Email Newsletter action button
 - `notebook.svg` for the Notes preview heading
 - `projects.svg` for the Projects preview heading
 
 Homepage UI icon rules:
 
 - Use these icons near text labels, not as standalone oversized graphics.
-- Icons should be 20px - 24px.
-- Icons should inherit the current text/accent color when possible.
+- Icons should be 20px - 24px in buttons/headings unless the design requires a larger preview size.
 - Keep icon spacing compact and aligned with the text baseline.
+- The About Me action button must use `aboutme-icon.svg`.
+- The Email Newsletter action button must use `mailnewsletter-icon.svg`.
+
+## Project Button GitHub Icons
+
+Current local GitHub button icon files:
+
+- `github-dark-theme.svg`
+- `github-light-theme.svg`
+
+Project button GitHub icon rules:
+
+- Use `github-dark-theme.svg` in dark theme next to project/source buttons.
+- Use `github-light-theme.svg` in light theme next to project/source buttons.
+- These icons are for project/source buttons, especially buttons that link to GitHub source code.
+- Keep the icon size around 20px - 24px.
+- Do not use these icons for non-GitHub links.
 
 ## Current Decision
 
