@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Notebook icon">
+  <title>Notebook</title>
+  <path d="M7 4.5h10.5c.8 0 1.5.7 1.5 1.5v12c0 .8-.7 1.5-1.5 1.5H7c-1.1 0-2-.9-2-2V6.5c0-1.1.9-2 2-2Z" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <path d="M8 4.5v15M11 9h5M11 13h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+</svg>
