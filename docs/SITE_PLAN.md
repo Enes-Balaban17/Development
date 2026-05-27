@@ -101,21 +101,41 @@ About Me
 
 Hey, I'm Enes!
 
-I'm a Computer Programming graduate and software developer.
+I'm a Software Developer and graduate from Ege University Computer Programming.
 
-This is my personal website.
+I'm interested in unmanned aerial systems, artificial intelligence, and embedded systems, and I create content around these fields.
 
-Notes
-Projects
-About Me
+[Open Folder Icon] About Me     [Email Newsletter Icon] Email Newsletter
 
-------------------------------------------------------------
+Skills
 
-Contact
+[Skills grid preview or Skills section]
 
-Email signup
-LinkedIn
+[Notebook Icon] Notes
+Notes preview
+
+[Projects Icon] Projects
+Projects preview
 ```
+
+Hero action buttons:
+
+```txt
+[folder-open.svg] About Me
+[email-newsletter.svg] Email Newsletter
+```
+
+Hero rules:
+
+- Use the new home paragraph exactly as written above.
+- The About Me and Email Newsletter buttons should be side by side on desktop.
+- The About Me button must use `assets/icons/folder-open.svg`.
+- The Email Newsletter button must use `assets/icons/email-newsletter.svg`.
+- The action buttons should remain compact, readable, and visually aligned.
+- Add the mascot image to the right side of the hero text on desktop.
+- The mascot must be positioned like a right-side hero illustration, aligned around the heading and intro text area.
+- On small screens, stack the mascot below the hero text or hide it if it hurts readability.
+- Use hero mascot sizing and positioning rules from `docs/DESIGN_SYSTEM.md`.
 
 Hero mascot:
 
@@ -123,16 +143,39 @@ Hero mascot:
 assets/images/enescot.png
 ```
 
-Hero rules:
+## Home Page Sections After Hero
 
-- Action links are vertical.
-- Contact links are vertical.
-- Use clear spacing between text blocks.
-- Use a divider between action links and contact links.
-- Add the mascot image to the right side of the hero text on desktop.
-- The mascot must be positioned like a right-side hero illustration, aligned around the heading and intro text area.
-- On small screens, stack the mascot below the hero text or hide it if it hurts readability.
-- Use hero mascot sizing and positioning rules from `docs/DESIGN_SYSTEM.md`.
+The home page should continue with these sections after the hero area:
+
+```txt
+Skills
+
+[Skills preview/section using the same order and icon rules from SKILLS_PLAN]
+
+[Notebook Icon] Notes
+Notes preview
+
+[Projects Icon] Projects
+Projects preview
+```
+
+Home Skills section rules:
+
+- The homepage can show the full Skills grid or a compact preview of it.
+- Skill order and icon rules must come from `docs/SKILLS_PLAN.md` and `docs/ICON_SOURCES.md`.
+- Visual card styling must come from `docs/DESIGN_SYSTEM.md`.
+
+Home Notes preview rules:
+
+- Heading must use `assets/icons/notebook.svg`.
+- Show a short preview/list of recent notes or placeholder note entries.
+- The full notes archive remains on `notes.html`.
+
+Home Projects preview rules:
+
+- Heading must use `assets/icons/projects.svg`.
+- Show a short preview/list of selected projects or placeholder project entries.
+- The full projects archive remains on `projects.html`.
 
 ## About Me Page
 
