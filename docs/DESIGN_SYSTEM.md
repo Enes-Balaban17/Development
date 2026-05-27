@@ -142,6 +142,64 @@ hero section
 - mascot image column
 ```
 
+## Hero Mascot Circle
+
+The mascot circle must be a compact decorative circle behind only the front/center part of the mascot. It must not become a large background disk behind the whole image.
+
+Correct visual direction:
+
+```txt
+The mascot extends outside the circle.
+The circle sits behind the front/center body and circuit board area.
+The circle should not cover the full tail, full spikes, or full body width.
+The circle should feel like a small accent shape, not a giant backdrop.
+```
+
+Theme colors:
+
+```txt
+dark theme circle: #ff8ac0
+light theme circle: #d33682
+```
+
+Circle sizing and positioning:
+
+```txt
+circle diameter: 58% - 64% of mascot frame width
+circle max size: 260px - 300px
+circle min size: 210px
+position: absolute
+left: 43% - 46% of mascot frame
+top: 50% - 53% of mascot frame
+transform: translate(-50%, -50%)
+z-index: 0
+mascot image z-index: 1
+```
+
+Implementation notes:
+
+```txt
+Use a CSS pseudo-element on the mascot frame.
+Do not edit the mascot PNG.
+Do not bake the circle into the image.
+Use overflow: visible so the mascot can extend beyond the circle.
+The tail and outer spikes should visibly extend beyond the circle.
+```
+
+Recommended CSS variable:
+
+```txt
+--color-mascot-circle
+```
+
+Recommended structure:
+
+```txt
+hero-visual
+- hero-mascot-frame
+  - img mascot
+```
+
 ## Color Palette
 
 Core dark gray palette:
@@ -387,7 +445,8 @@ hero mascot stacks below hero text or is hidden if it hurts readability
 4. Sidebar short About Me block
 5. Main content layout
 6. Home hero mascot placement
-7. Cards and skill grid
-8. Archive list styling
-9. Theme toggle styling
-10. Responsive styling
+7. Hero mascot circle placement
+8. Cards and skill grid
+9. Archive list styling
+10. Theme toggle styling
+11. Responsive styling
