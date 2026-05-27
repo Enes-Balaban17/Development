@@ -44,6 +44,22 @@ Theme icon rules:
 - The icon should remain visible without showing a permanent square button frame.
 - The square hover/focus frame should appear only on hover or keyboard focus.
 
+## Homepage UI Icons
+
+Current local homepage UI icon files:
+
+- `folder-open.svg` for the About Me action button
+- `email-newsletter.svg` for the Email Newsletter action button
+- `notebook.svg` for the Notes preview heading
+- `projects.svg` for the Projects preview heading
+
+Homepage UI icon rules:
+
+- Use these icons near text labels, not as standalone oversized graphics.
+- Icons should be 20px - 24px.
+- Icons should inherit the current text/accent color when possible.
+- Keep icon spacing compact and aligned with the text baseline.
+
 ## Current Decision
 
 The first version will use local SVG files from `assets/icons/`.
