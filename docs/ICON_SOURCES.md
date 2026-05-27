@@ -1,6 +1,6 @@
 # Icon Sources Report
 
-This document records the current status of the skill icons used in the portfolio website.
+This document records the current status of the icons used in the portfolio website.
 
 ## Icon Folder
 
@@ -10,9 +10,9 @@ Current icon folder:
 assets/icons/
 ```
 
-## Icons Added to This Repository
+## Skill Icons Added to This Repository
 
-Current local icon files:
+Current local skill icon files:
 
 - `assembly.svg`
 - `c.svg`
@@ -29,6 +29,20 @@ Current local icon files:
 - `blender.svg`
 - `sql.svg`
 - `oracle-db.svg`
+
+## Theme Toggle Icons
+
+Current local theme icon files:
+
+- `theme-sun.svg`
+- `theme-moon.svg`
+
+Theme icon rules:
+
+- Use the SVG files as inline icons or image icons inside the theme toggle button.
+- Icons should inherit the current text color when possible.
+- The icon should remain visible without showing a permanent square button frame.
+- The square hover/focus frame should appear only on hover or keyboard focus.
 
 ## Current Decision
 
