@@ -450,3 +450,5 @@ hero mascot stacks below hero text or is hidden if it hurts readability
 9. Archive list styling
 10. Theme toggle styling
 11. Responsive styling
+
+Implementation notes should stay practical and easy to follow during coding.
