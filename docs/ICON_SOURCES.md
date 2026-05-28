@@ -59,6 +59,7 @@ Homepage UI icon rules:
 - Icons should be 20px - 24px in buttons/headings unless the design requires a larger preview size.
 - Keep icon spacing compact and aligned with the text baseline.
 - Keep button icons visually balanced with the surrounding text.
+- Keep all homepage icons visually consistent across dark and light themes.
 - The About Me action button must use `aboutme-icon.svg`.
 - The Email Newsletter action button must use `mailnewsletter-icon.svg`.
 
